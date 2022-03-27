@@ -11,7 +11,6 @@
   inputs.src-asciigraph-master.ref   = "refs/heads/master";
   inputs.src-asciigraph-master.owner = "Yardanico";
   inputs.src-asciigraph-master.repo  = "asciigraph";
-  inputs.src-asciigraph-master.dir   = "";
   inputs.src-asciigraph-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
